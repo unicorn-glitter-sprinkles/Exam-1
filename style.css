@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(230, 201, 223);
+}
+.h1{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(192, 10, 153);
+}
+h2{
+    font-style: normal;
+    font-family: cursive;
+}
+header{
+    font-size:40px;
+    text-align:center;
+    color:red;
+    font-family:fantasy
+}
+a{
+    text-align:center
+}
+p{
+    text-align:center;
+    color: rgb(4, 1, 192);
+    font-size:20px
+}
+img{
+    border-style:solid;
+    border-color: red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img:hover{
+    height:400px;
+    width:400px;
+    transition: height 1s width 1s
+    min-height:600px
+}
+header:hover{
+    color:skyblue;
+    font-size:40px
+}
